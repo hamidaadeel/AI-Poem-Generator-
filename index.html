@@ -7,7 +7,24 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <h1>AI Poem Generator</h1>
+    <header>
+      <h1>AI Poem Generator</h1>
+    </header>
+
+    <main>
+      <form>
+        <input
+          type="text"
+          id="prompt"
+          placeholder="Enter the topic of poem" 
+         autofocus
+          required
+          autocomplete="off"
+        />
+          <input type="submit" />
+      </form>
+    </main>
+
     <footer>
       <p>
         This AI project was coded by
@@ -20,8 +37,10 @@
           target="_blank"
         >
           open-sourced on GitHub </a
+        >. hosted on
+        <a href="https://poem-ai-application.netlify.app/" target="_blank"
+          >Netlify</a
         >.
-        hosted on <a href="https://poem-ai-application.netlify.app/"  target="_blank">Netlify</a>.
       </p>
     </footer>
     <script src="src/index.js"></script>
