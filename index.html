@@ -7,42 +7,50 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          id="prompt"
-          placeholder="Enter the topic of poem" 
-         autofocus
-          required
-          autocomplete="off"
-        />
-          <input type="submit" />
-      </form>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            id="prompt"
+            placeholder="Enter the topic of poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instractions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          La tombe dit à la rose
+          <br />
+          Des pleurs dont l'aube t'arrose
+        </div>
+      </main>
 
-    <footer>
-      <p>
-        This AI project was coded by
-        <a href="https://github.com/hamidaadeel" target="_blank"
-          >Hamida Adeel</a
-        >
-        and is
-        <a
-          href="https://github.com/hamidaadeel/AI-Poem-Generator-"
-          target="_blank"
-        >
-          open-sourced on GitHub </a
-        >. hosted on
-        <a href="https://poem-ai-application.netlify.app/" target="_blank"
-          >Netlify</a
-        >.
-      </p>
-    </footer>
+      <footer>
+        <p>
+          This AI project was coded by
+          <a href="https://github.com/hamidaadeel" target="_blank"
+            >Hamida Adeel</a
+          >
+          and is
+          <a
+            href="https://github.com/hamidaadeel/AI-Poem-Generator-"
+            target="_blank"
+          >
+            open-sourced on GitHub </a
+          >. hosted on
+          <a href="https://poem-ai-application.netlify.app/" target="_blank"
+            >Netlify</a
+          >.
+        </p>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
